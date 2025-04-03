@@ -49,7 +49,7 @@ export default function Resume() {
     formData.append('resume', file);
     formData.append('job_description', jobDescription);
 
-    axios.post('http://127.0.0.1:5000/analyze', formData)
+    axios.post('https://resume-ats-checker-4.onrender.com/analyze', formData)
       .then((response) => {
         setResults(response.data);
         setIsLoading(false);
