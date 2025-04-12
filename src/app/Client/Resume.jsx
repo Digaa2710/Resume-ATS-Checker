@@ -26,24 +26,6 @@ export default function Resume() {
     
     setIsLoading(true);
     
-    // Simulate API call with timeout
-    // setTimeout(() => {
-    //   // Mock results
-      // setResults({
-      //   score: 78,
-      //   keywords: {
-      //     matched: ['collaboration', 'project management', 'JavaScript'],
-      //     missing: ['React', 'TypeScript', 'team leadership']
-      //   },
-      //   sections: {
-      //     experience: 85,
-      //     education: 90,
-      //     skills: 70
-      //   }
-      // });
-      
-    //   setIsLoading(false);
-    // }, 2000);
     // Create form data
     const formData = new FormData();
     formData.append('resume', file);
