@@ -34,16 +34,44 @@ Once submitted, you'll receive a detailed compatibility analysis showing keyword
 
 ![ATS Resume Checker Result](./images/result.png)
 
-
 ---
 
 ## 🛠 Tech Stack
 
-- **Frontend**: Next.js
-- **Styling**: TailwindCSS 
-- **Backend**: Flask
-- **Deployment**: Netlify,Render
+- **Frontend**: Next.js + TailwindCSS  
+- **Backend**: Flask (Python)
+- **Deployment**: Frontend on Netlify, Backend on Render
 
 ---
 
+## 🧑‍💻 Getting Started
 
+Follow these instructions to set up the project locally on your machine.
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Digaa2710/Resume-ATS-Checker.git
+cd Resume-ATS-Checker/
+```
+
+---
+
+### 2. Install and Run the Project
+
+```bash
+# Start the frontend
+npm install
+npm run dev
+
+# In a new terminal, start the backend
+cd server
+pip install -r requirements.txt
+python app.py
+```
+
+The frontend will be available at `http://localhost:3000` and the backend at `http://localhost:5000`.
+
+> ⚠️ Make sure both Node.js and Python are installed in your system.
+
+---
