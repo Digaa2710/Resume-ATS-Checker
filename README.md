@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ATS Resume Checker
 
-## Getting Started
+A web-based tool that helps job seekers evaluate how well their resume aligns with job descriptions by simulating Applicant Tracking System (ATS) behavior. This tool analyzes keyword match, skills overlap, and overall compatibility between a resume and job listing.
 
-First, run the development server:
+🌐 **Live Site**: [ats-checker.netlify.app](https://ats-checker.netlify.app/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- ✅ Upload resume (PDF or Text format)
+- 📝 Paste job description for matching
+- 📊 ATS-friendly analysis report
+- 🔍 Keyword and skills matching
+- 💡 Suggestions to improve resume compatibility
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 📸 Demo
 
-To learn more about Next.js, take a look at the following resources:
+The Form:
+![ATS Resume Checker Screenshot](./images/form.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The Result:
+![ATS Resume Checker Screenshot](./images/result.png)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠 Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- **Frontend**: Next.js
+- **Styling**: TailwindCSS 
+- **Backend**: Flask
+- **Deployment**: Netlify,Render
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+
