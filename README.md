@@ -18,11 +18,22 @@ A web-based tool that helps job seekers evaluate how well their resume aligns wi
 
 ## 📸 Demo
 
-The Form:
-![ATS Resume Checker Screenshot](./images/form.png)
+Take a quick look at how the **ATS Resume Checker** works:
 
-The Result:
-![ATS Resume Checker Screenshot](./images/result.png)
+### 🧾 The Input Form
+
+Upload your resume and paste the job description you'd like to match against. The interface is clean, intuitive, and user-friendly.
+
+![ATS Resume Checker Form](./images/form.png)
+
+---
+
+### 📊 The Compatibility Report
+
+Once submitted, you'll receive a detailed compatibility analysis showing keyword overlap, skill matches, and improvement suggestions to make your resume more ATS-friendly.
+
+![ATS Resume Checker Result](./images/result.png)
+
 
 ---
 
